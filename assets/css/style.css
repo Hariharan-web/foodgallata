@@ -1,0 +1,138 @@
+.divnav {
+    height: 56px;
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+    width: initial;
+    top: 74px;
+    z-index: 1000;
+}
+
+.navitems > span {
+    padding: 9px 15px 0px;
+    font-weight: 600;
+} 
+
+.headnav {
+    height: 78px;
+}
+
+.headimg {
+    height: -webkit-fill-available;
+}
+
+.foodcheckout {
+    background: url(../img/sprite.png?v=1.0);
+    width: 44px;
+    height: 40px;
+    background-position-x: -15px!important;
+    background-position-y: -84px!important;
+    margin-left: 21px;
+}
+
+.curoselimg{
+    background: url(../img/home_carousel.jpg) no-repeat;
+    width: -webkit-fill-available;
+    height: 380px;
+}
+
+.tab-content {
+    background-color: #f9f3ed;
+}
+
+.usersearch {
+    padding: 20px 20px 35px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgb(249, 243, 237);
+    border-color: rgb(249, 243, 237);
+}
+
+.nav-tabs .nav-link{
+    padding-top: 10px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+    padding-left: 38px;
+    font-size: .75em;
+    border-radius: 0px;
+}
+
+.nav-tabs > .delnav .nav-link.active::before{
+    content: '';
+    height: 28px;
+    top: 145px;
+    right: auto;
+    bottom: auto;
+    position: absolute;
+    border-top: 3px solid #e4002b;
+    background-color: rgb(249, 243, 237);
+    border-right: 0;
+    border-left: 0;
+    width: 129px;
+    left: 15px;
+}
+
+.nav-tabs > .taknav .nav-link.active::before{
+    content: '';
+    height: 28px;
+    top: 145px;
+    right: auto;
+    bottom: auto;
+    position: absolute;
+    border-top: 3px solid #e4002b;
+    background-color: rgb(249, 243, 237);
+    border-right: 0;
+    border-left: 0;
+    width: 135px;
+    left: 143px;
+}
+
+.nav-tabs .nav-link { 
+background: #FFF;
+}
+
+.foodtitle {
+    font-size: 3em;
+    line-height: 50px;
+    letter-spacing: -2.9px;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.foodsub{
+color: #FFF;
+font-size: .875em;
+font-weight: 500;
+}
+
+.nav-tabs {
+    font-weight: 700;
+}
+
+.form-control {
+    font-family: monospace;
+}
+
+footer{
+    box-shadow: 10px 2px 3px 4px rgba(175,175,175,.75);
+}
+
+.footernav {
+    border-bottom: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.footercontent > span {
+ text-transform: uppercase;
+}
+
+.footercontent {
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.footertext {
+    font-size: 13px;
+ }
